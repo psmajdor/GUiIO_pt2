@@ -1,0 +1,10 @@
+sentence-transformers
+pandas
+pyarrow
+numpy 
+matplotlib 
+tensorflow 
+scikit-learn
+datasets
+tf_keras
+accelerate>=0.26.0
