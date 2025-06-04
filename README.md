@@ -12,3 +12,7 @@ UWAGA - bardzo możliwe, że trzeba będzie lekko zmodyfikować ścieżki plikó
 
 ## RNN - LSTM
 Wszystkie trzy pliki można uruchomić by zbadać wyniki uczenia danej sieci. W plikach zawarte są: prosty model sieci LSTM - rnn_lstm.ipynb oraz modele wykorzystujące dwukierunkowe bloki LSTM: z mniejszą ilością warstw - rnn_mala_bi_lstm.ipynb oraz bardziej rozbudowany - rnn_bi_lstm.ipynb.
+
+
+## Transformer
+Żeby uruchomienie było możliwe najpierw trzeba pobrac i wypakować pilk .7z z dysku google (https://drive.google.com/file/d/1XNNPDQOZLEPU-xKVmAaiA11QtR37XtlA/view?usp=sharing). Plik ten zawiera potrzebne pliki oraz modele potrzebne do uruchomienia notatników Jupyter, opórcz notatnika zwiazanego z klasyfikatorem wytrenowanym na modelu gpt2-small. Możliwe będzie zmodyfikowanie scieżek do plików, w szczególności do wczytywania modeli. Same modele należy wczytywać korzystając z funkcji load_model wraz z argumentem "with_optimizer=True", funkcja zwraca wczytany model oraz optymalizator, w większości przypadków należy zignorować. 
