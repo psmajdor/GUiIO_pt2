@@ -9,3 +9,6 @@ cnn/cnn_network_training.ipynb służy do trenowania sieci. Posiada zcachowane i
 cnn/cnn_optional_embedding_to_df.ipynb jest dodatkowym plikiem służącym do konwersji plików .npy na .feather
 
 UWAGA - bardzo możliwe, że trzeba będzie lekko zmodyfikować ścieżki plików
+
+## RNN - LSTM
+Wszystkie trzy pliki można uruchomić by zbadać wyniki uczenia danej sieci. W plikach zawarte są: prosty model sieci LSTM - rnn_lstm.ipynb oraz modele wykorzystujące dwukierunkowe bloki LSTM: z mniejszą ilością warstw - rnn_mala_bi_lstm.ipynb oraz bardziej rozbudowany - rnn_bi_lstm.ipynb.
