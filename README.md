@@ -11,7 +11,7 @@ cnn/cnn_optional_embedding_to_df.ipynb jest dodatkowym plikiem służącym do ko
 UWAGA - bardzo możliwe, że trzeba będzie lekko zmodyfikować ścieżki plików
 
 ## RNN - LSTM
-Wszystkie trzy pliki można uruchomić by zbadać wyniki uczenia danej sieci. W plikach zawarte są: prosty model sieci LSTM - rnn_lstm.ipynb oraz modele wykorzystujące dwukierunkowe bloki LSTM: z mniejszą ilością warstw - rnn_mala_bi_lstm.ipynb oraz bardziej rozbudowany - rnn_bi_lstm.ipynb.
+Wszystkie cztery pliki można pojedynczo uruchomić by zbadać wyniki uczenia danej sieci. W plikach zawarte są: prosty model sieci LSTM - rnn_lstm.ipynb oraz modele wykorzystujące dwukierunkowe bloki LSTM: z mniejszą ilością warstw - rnn_mala_bi_lstm.ipynb, rnn_mala_bu_lstm_30_epochs.ipynb - uczenie przez 30 epok, bez callback, oraz bardziej rozbudowany - rnn_bi_lstm.ipynb.
 
 
 ## Transformer
